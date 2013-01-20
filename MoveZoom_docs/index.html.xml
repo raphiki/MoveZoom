@@ -1,0 +1,191 @@
+<?xml-stylesheet type="text/xsl" href="docs.xsl"?><javascript fileName="MoveZoom.js">
+    <object_literal name="MoveZoom" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="false" internal="false">
+        <description>MoveZoom object</description>
+        <unknown name="width" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+        </unknown>
+        <unknown name="height" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+        </unknown>
+        <function name="init" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="false" internal="false">
+            <description>Initialize two DIV elements for zooming</description>
+            <parameters>
+                <parameter name="imageId" type="String">
+                    <description>Id of IMG element to become zoomable</description>
+                </parameter>
+                <parameter name="zoom" type="Number">
+                    <description>Zoom ratio</description>
+                </parameter>
+            </parameters>
+            <property name="MoveZoom" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                <property name="imageId" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                </property>
+                <property name="zoom" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                </property>
+                <unknown name="mousex" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                </unknown>
+                <unknown name="mousey" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                </unknown>
+                <property name="image" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                </property>
+                <property name="zoomFrame" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                    <property name="style" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                        <property name="width" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                        </property>
+                        <property name="height" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                        </property>
+                        <unknown name="zIndex" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                        </unknown>
+                        <unknown name="borderStyle" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                        </unknown>
+                        <unknown name="borderWidth" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                        </unknown>
+                        <unknown name="position" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                        </unknown>
+                        <unknown name="float" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                        </unknown>
+                        <unknown name="visibility" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                        </unknown>
+                    </property>
+                </property>
+                <property name="detailFrame" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                    <unknown name="id" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                    </unknown>
+                    <property name="style" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                        <property name="width" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                        </property>
+                        <property name="height" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                        </property>
+                        <property name="left" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                        </property>
+                        <property name="top" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                        </property>
+                        <unknown name="zIndex" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                        </unknown>
+                        <unknown name="borderStyle" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                        </unknown>
+                        <unknown name="borderWidth" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                        </unknown>
+                        <unknown name="position" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                        </unknown>
+                        <unknown name="overflow" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                        </unknown>
+                        <unknown name="float" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                        </unknown>
+                        <unknown name="visibility" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                        </unknown>
+                    </property>
+                    <property name="image" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                        <property name="style" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                            <unknown name="position" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                            </unknown>
+                            <property name="width" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                            </property>
+                            <property name="height" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                            </property>
+                        </property>
+                    </property>
+                </property>
+            </property>
+            <property name="document" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                <property name="onmouseover" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                </property>
+                <property name="onmousemove" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                </property>
+                <property name="onclick" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                </property>
+            </property>
+        </function>
+        <function name="getMouseXY" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="false" internal="false" type="String">
+            <description>Get mouse&apos;s coordinates</description>
+            <parameters>
+                <parameter name="e" type="Event">
+                    <description>Mouse event</description>
+                </parameter>
+            </parameters>
+            <return-types>
+                <return-type type="String" />
+            </return-types>
+            <property name="MoveZoom" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                <property name="mousex" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                </property>
+                <property name="mousey" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                </property>
+            </property>
+        </function>
+        <function name="showFrames" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="false" internal="false">
+            <description>Show zoom frames (DIV elements)</description>
+            <parameters>
+                <parameter name="e" type="Event">
+                    <description>Mouse event</description>
+                </parameter>
+            </parameters>
+            <property name="MoveZoom" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                <property name="zoomFrame" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                    <property name="style" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                        <unknown name="visibility" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                        </unknown>
+                    </property>
+                </property>
+                <property name="detailFrame" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                    <property name="style" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                        <unknown name="visibility" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                        </unknown>
+                    </property>
+                </property>
+            </property>
+        </function>
+        <function name="hideFrames" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="false" internal="false">
+            <description>Hide zoom frames (DIV elements)</description>
+            <parameters>
+                <parameter name="e" type="Event">
+                    <description>Mouse event</description>
+                </parameter>
+            </parameters>
+            <property name="MoveZoom" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                <property name="zoomFrame" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                    <property name="style" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                        <unknown name="visibility" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                        </unknown>
+                    </property>
+                </property>
+                <property name="detailFrame" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                    <property name="style" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                        <unknown name="visibility" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                        </unknown>
+                    </property>
+                </property>
+            </property>
+        </function>
+        <function name="moveFrame" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="false" internal="false">
+            <description>Move selection frame</description>
+            <parameters>
+                <parameter name="e" type="Event">
+                    <description>Mouse event</description>
+                </parameter>
+            </parameters>
+            <property name="newx" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+            </property>
+            <property name="newy" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+            </property>
+            <property name="MoveZoom" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                <property name="zoomFrame" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                    <property name="style" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                        <property name="left" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                        </property>
+                        <property name="top" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                        </property>
+                    </property>
+                </property>
+                <property name="detailFrame" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                    <property name="image" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                        <property name="style" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                            <property name="left" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                            </property>
+                            <property name="top" scope="static" constructor="false" deprecated="false" private="false" protected="false" ignored="true" internal="false">
+                            </property>
+                        </property>
+                    </property>
+                </property>
+            </property>
+        </function>
+    </object_literal>
+</javascript>
