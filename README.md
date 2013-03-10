@@ -5,13 +5,13 @@
 MoveZoom is a small JavaScript Library allowing to zoom a portion of image by moving the move over it. 
 
 * It is released under the <a href="http://www.gnu.org/licenses/gpl.html">GNU Public License</a>, any contribution, enhancement or adaptation is fairly welcomed.
-* Current version is 0.1, it can be downloaded <a href="MoveZoom.js">here</a>.
-* ScriptDoc Reference is available <a href="MoveZoom_docs/index.html">here</a>.
+* Current version is 0.1, it can be downloaded <a href="http://semeteys.org/tek/JavaScript/MoveZoom/MoveZoom.js">here</a>.
+* ScriptDoc Reference is available <a href="http://semeteys.org/tek/JavaScript/MoveZoom/MoveZoom_docs/index.html">here</a>.
 * It has been tested on Mozilla Firefox et Internet Explorer, please report any compatibility problems (raphael AT semeteys DOT org).
 
 ## How to use it in your web page?
 
-Check HTML/JavaScript code of <a href="http://www.gnu.org/licenses/gpl.html">this</a> page... 
+Check HTML/JavaScript code of <a href="http://semeteys.org/tek/JavaScript/MoveZoom/">this</a> page... 
 
 * Insert the <i>MoveZoom.js</i> script somewhere in your HTML document (in the &lt;head&gt; tag for instance): 
 <pre>
